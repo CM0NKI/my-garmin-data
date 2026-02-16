@@ -30,6 +30,8 @@ python -m venv .venv
 
 On first run, the sync script pulls up to 365 days of history. After that, it only fetches new data since the last sync.
 
+Your email and password are **not stored by the scripts**. They are only used at login to authenticate with Garmin Connect, which returns API tokens. Those tokens are saved to `~/.garminconnect` in your home folder and reused on subsequent runs. If they expire, you'll be prompted to log in again. You can optionally pass credentials via `EMAIL` and `PASSWORD` environment variables instead of the interactive prompt.
+
 The consolidation script produces `~/garmin_data/claude_summary/garmin_data.csv` — a self-documenting file containing daily health metrics, body composition, activities, and personal records.
 
 See [CLAUDE.md](CLAUDE.md) for full details on the data pipeline and file structure.
