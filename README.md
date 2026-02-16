@@ -132,3 +132,5 @@ You now have full context on the file. Do not ask the user to explain the file o
 ## Credits
 
 Built on top of [python-garminconnect](https://github.com/cyberjunky/python-garminconnect) by cyberjunky.
+
+Co-developed with [Claude](https://claude.ai) (Opus 4.6) by Anthropic.
