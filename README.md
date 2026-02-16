@@ -49,7 +49,7 @@ Upload `~/garmin_data/claude_summary/garmin_data.csv` to any AI (ChatGPT, Claude
 <details>
 <summary>Click to expand the full prompt</summary>
 
-```
+````
 You are a health and fitness data analyst. The attached file `garmin_data.csv` contains consolidated Garmin Connect data. The file uses comment lines (starting with #) as section headers and inline documentation. Here is everything you need to know to work with it immediately:
 
 ## File structure
@@ -123,7 +123,7 @@ records = sections["PERSONAL_RECORDS"]
 ## Ready to go
 
 You now have full context on the file. Do not ask the user to explain the file or confirm its structure — go straight to answering their question or performing analysis. If something is ambiguous, state your assumption and proceed.
-```
+````
 
 </details>
 
